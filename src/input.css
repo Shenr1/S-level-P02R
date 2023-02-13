@@ -28,6 +28,22 @@
   font-weight: 900
 }
 
+.s2-line-wrapper{
+  /* @apply absolute flex items-start xl:max-w-1/3 max-w-1/2  */
+  @apply absolute flex items-start;
+}
+
+.s2-line-p {
+  @apply text-center -translate-y-1/2 px-1;
+}
+
+.s2-line-em {
+  @apply w-full block border-t-[1px] border-viGreen-light1;
+}
+
+.s2-ball{
+  @apply after:w-6 after:h-6 after:bg-viGreen-light1 after:rounded-full after:absolute 
+}
 
 @tailwind base;
 @tailwind components;

@@ -28,7 +28,18 @@ module.exports = {
       fontFamily: {
         'Impact': 'Impact, Arial, sans-serif',
         'Montserrat': 'Montserrat, Arial, sans-serif',
-        'Sans': 'Noto Sans SC, Arial, sans-serif'
+        'Sans': 'Noto Sans SC, Arial, sans-serif',
+        'OpenSans': 'Open Sans, Arial, sans-serif'
+      },
+      backgroundImage: {
+        'p02rBannr': "url('/img/hero-pattern.svg')",
+      },
+      maxWidth: {
+        '1/2': '50%',
+        '1/3': '33.3333333%',
+        '1/4': '45%',
+        '1/5': '20%',
+        'default': '1400px',
       }
     },
   },
