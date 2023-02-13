@@ -1,3 +1,34 @@
+@font-face {
+  font-family:"Montserrat";
+  src:url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Medium.ttf?v=1676015810') format("ttf"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Medium.woff?v=1676015809') format("woff"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Medium.otf?v=1676012731') format("otf");
+
+  font-weight: 600
+}
+@font-face {
+  font-family:"Montserrat";
+  src:url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Bold.woff?v=1676015809') format("woff"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Bold.ttf?v=1676015809') format("ttf"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Bold.otf?v=1676012731') format("otf");
+  font-weight: 700
+}
+@font-face {
+  font-family:"Montserrat";
+  src:url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-ExtraBold.otf?v=1676019774') format("otf"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-ExtraBold.woff2?v=1676019930') format("woff2"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-ExtraBold.ttf?v=1676019774') format("ttf");
+  font-weight: 800
+}
+@font-face {
+  font-family:"Montserrat";
+  src:url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Black.otf?v=1676012733') format("otf"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Black.woff?v=1676015810') format("woff"),
+  url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/MontserratAlt1-Black.ttf?v=1676015810') format("ttf");
+  font-weight: 900
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
