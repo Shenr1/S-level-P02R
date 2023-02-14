@@ -45,6 +45,12 @@
   @apply after:w-6 after:h-6 after:bg-viGreen-light1 after:rounded-full after:absolute 
 }
 
+.s2-mask-2{
+  -webkit-mask-image: url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s2-2.png?v=1676344182');
+  -webkit-mask-size: auto;
+  -webkit-mask-repeat: no-repeat;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
