@@ -58,7 +58,18 @@
   mask-repeat: no-repeat;
 }
 
-
+.s7-mask{
+  -webkit-mask-image: url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s7_bg.png?v=1676513159');
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s7_bg.png?v=1676513159');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+.s5-biggest-bg{
+  background: linear-gradient(-3deg, #000, #000 20%, #3e9508, #d9f7c6, #40a700, #000 80%, #000);
+}
+/* 
 .s7-ripple:before,
 .s7-ripple:after {
   content: '';
@@ -79,7 +90,7 @@
 
 .s7-ripple:after {
   animation: s7-ripple 5s linear 2.5s infinite;
-}
+} */
 
 @keyframes s7-ripple {
   0% { transform: scale(1); }

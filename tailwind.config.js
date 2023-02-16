@@ -32,7 +32,9 @@ module.exports = {
         'OpenSans': 'Open Sans, Arial, sans-serif'
       },
       backgroundImage: {
-        'p02rBannr': "url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/banner_bg.jpg?v=1676428088')",
+        'p02rBannr': "url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s1_bg.jpg?v=1676538193')",
+        'mask': "url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s7_bg.png?v=1676513159')",
+        's3bg': "url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s3_bg.png?v=1676461660')",
       },
       maxWidth: {
         '1/2': '50%',
@@ -43,12 +45,27 @@ module.exports = {
       },
       inset: {
         '1/5': '20%',
+        '2/5': '40%',
         '1/6': '16.666666%',
         '1/8': '12.5%',
         '-1/5': '-20%',
+        '-2/5': '-40%',
         '-1/6': '-16.666666%',
         '-1/8': '-12.5%',
-       }
+       },
+       spacing: {
+        '1/5': '20%',
+        '2/5': '40%',
+        '1/6': '16.666666%',
+        '1/8': '12.5%',
+        '-1/5': '-20%',
+        '-2/5': '-40%',
+        '-1/6': '-16.666666%',
+        '-1/8': '-12.5%',
+      },
+       boxShadow: {
+        'ripple':'#a6c6c4 0px 0px 30px 10px;'
+      }
     },
   },
   plugins: [],
