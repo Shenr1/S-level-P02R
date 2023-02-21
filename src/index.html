@@ -16,17 +16,23 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <!-- slick -->
+    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js" type="application/javascript"></script>
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/slick-carousel/1.9.0/slick.min.js" type="application/javascript"></script>
+    <link href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/slick-carousel/1.9.0/slick.min.css" type="text/css" rel="stylesheet" />
     <!-- 字体 -->
     <script src="http://afarkas.github.io/lazysizes/lazysizes.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
 
 
     <!-- <div class="mb-20">
         <nav class="bg-black h-20 fixed top-0 w-full"></nav>
     </div> -->
 
-    <section class="bg-gradient-to-b from-[#b2cce5] to-[#f9f9f9]" id="section_1" >
+    <section class="hidden bg-gradient-to-b from-[#b2cce5] to-[#f9f9f9]" id="section_1" >
         <div class="overflow-hidden lg:pt-28 pt-20 bg-p02rBannr bg-cover lg:min-h-screen">
             <section id="s1_slogan">
                 <h1 class="lg:text-6xl text-4xl text-center font-Montserrat font-black tracking-wide">One Set For More</h1>
@@ -46,14 +52,14 @@
             </div>
         </div>
     </section>
-    <section class="" id="section_2" class="overflow-hidden">
+    <section class="hidden" id="section_2" class="overflow-hidden">
         <div class="max-w-default ml-auto mr-auto xl:pb-48 lg:pb-48 md:pb-48 pb-16 overflow-hidden">
             <div class="lg:flex mb-20 xl:p-16 lg:p-12 md:p-8 p-4">   
                 <div id="s2_out_dec" class="lg:w-3/5 w-full">   
                     <h1 class="text-3xl md:text-5xl font-Montserrat font-extrabold mb-6 md:mb-12 tracking-wide md:leading-tight leading-tight mt-8 md:mt-20">Wireless<br>Pool Thermometer</h1>
                     <h3 class="text-2xl font-bold mb-4">IBS-PO2R-O</h3>
                     <p class="md:text-lg text-sm mb-11 text-gray-800 md:leading-8 leading-8 xl:pr-24">INKBIRD IBS-P02R Floating Pool Thermometer Set, Wireless Pool Thermometer with Indoor Temperature Humidity Monitor, 3 Channels, Large Screen,  For Swimming Pools, Hot Tubs, Small Ponds, Aquariums</p>
-                    <div class="flex md:w-2/5  justify-between">
+                    <div class="flex md:w-2/5  md:justify-between">
                         <div class="mr-4">
                             <p class="text-gray-400 mb-4">Waterproof grade</p>
                             <p class="text-viGreen-light1 md:text-6xl text-3xl font-bold">IPX7</p>
@@ -80,7 +86,7 @@
             <div class="mt-10"><img id="s2_in_family" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s2_in_family.jpg?v=1676539316" alt=""></div>
         </div>
 
-        <div class="bg-black">
+        <div class="bg-black bg-s2bgScreen">
             <div class="max-w-default ml-auto mr-auto md:pt-40 md:pb-48 md:mb-28 pt-20 pb-32 mb-20">
                 <div class="text-center md:mb-52 mb-28">   
                     <h1 class="md:text-5xl text-4xl text-white font-bold mb-2 font-Montserrat">Indoor unit function display</h1>
@@ -144,7 +150,7 @@
                         <img class="block mx-auto md:mb-6 mb-2 h-2/5 md:h-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s2_icon_5.png?v=1676539055" alt="">
                         <p class="lg:px-4 lg:text-base text-sm">3-Channel Monitoring</p>
                     </div>
-                    <div class="w-1/2 md:mb-20 mb-12 lg:px-4 pr-2">
+                    <div class="w-1/2 lg:px-4 pr-2">
                         <img class="block mx-auto md:mb-6 mb-2 h-2/5 md:h-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s2_icon_1.png?v=1676539053" alt="">
                         <p class="lg:px-4 lg:text-base text-sm">Max/Min Value</p>
                     </div>
@@ -152,7 +158,7 @@
             </div>
             <div class="absolute top-0 lg:w-3/5 w-[225px] lg:h-full h-[225px] lg:right-0 right-10">
                 <div class="w-full h-full bg-gray-700 s2-mask-2 absolute -right-1/6 z-20 overflow-hidden">
-                    <video muted height="720" width="840" class="max-w-max object-cover h-full" playsinline="true" x5-playsinline="true" autoplay="true" loop=""><source type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;" src="https://dji-official-fe.djicdn.com/reactor/assets/_next/static/videos/e183f4c6-0d03-4a1a-8ff6-df93b4d44234.mp4"></video>
+                    <video muted height="720" width="840" class="max-w-max object-cover h-full" playsinline="true" x5-playsinline="true" autoplay="true" loop=""><source type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;" src="https://cdn.shopify.com/videos/c/o/v/9db299c52fb244f18a7befae56950887.mp4"></video>
                 </div>
                 <img id="s2_fun_out" class="lg:max-w-1/3 w-1/3 left-1/3 bottom-1/4 z-10 absolute" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s2_fun_out.png?v=1676452068" alt="">
                 <img id="s2_fun_in" class="lg:max-w-1/3 w-1/3 left-1/5 z-30 bottom-0 absolute"src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s2_fun_in.png?v=1676452068" alt="">
@@ -161,23 +167,23 @@
         </div>
 
     </section>
-    <section class="" id="section_4">
+    <section class="hidden" id="section_4">
         <div class="max-w-default ml-auto mr-auto mb-16 md:mt-60 mt-60">
             <div class="flex items-center justify-between">
                 <div class="relative rotate-[30deg] flex flex-col items-center w-2/6">
-                    <img id="s4_top" class="md:translate-y-36 translate-y-8" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s4_top.png?v=1676541695" alt="" srcset="">
-                    <img id="s4_mid" class="" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s4_mid.png?v=1676541694" alt="" srcset="">
+                    <img id="s4_top" class="z-20" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s4_top.png?v=1676878156" alt="" srcset="">
+                    <img id="s4_mid" class="md:-mt-32 -mt-8 z-10" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s4_mid.png?v=1676541694" alt="" srcset="">
                     <img id="s4_btm" class="md:-translate-y-10 -translate-y-8" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s4_btm.png?v=1676541695" alt="" srcset="">
                 </div>
-                <div class="w-2/5 mb-8">   
-                    <h1 id="s4_slogan" class="xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-extrabold font-Montserrat mb-12 xl:leading-tight lg:leading-tight md:leading-tight">Upgraded Industrial Design, All Is Better </h1>
-                    <h1 id="s4_dec" class="xl:text-2xl lg:text-xl text-lg text-gray-500"><span class="xl:text-6xl lg:text-5xl md:text-4xl text-3xl font-bold text-viGreen-light1">Stronger</span> waterproof design</h1>
+                <div class="md:w-2/5 w-1/2 mb-24">   
+                    <h1 id="s4_slogan" class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold font-Montserrat mb-12 xl:leading-tight lg:leading-tight md:leading-tight">Upgraded Industrial Design, All Is Better </h1>
+                    <h1 id="s4_dec" class="xl:text-2xl lg:text-xl text-lg text-gray-500"><span class="xl:text-6xl lg:text-5xl md:text-4xl text-2xl font-bold text-viGreen-light1">Stronger</span> waterproof design</h1>
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="" id="section_3">
+    <section class="hidden" id="section_3">
         <div class="overflow-hidden bg-black">
             <div id="s3_anim1" class="lg:bg-none bg-s3bg bg-no-repeat overflow-hidden xl:h-screen lg:h-screen h-1/2 relative flex ">
                 <div class="lg:w-1/2 w-2/5 top-0 h-100% relative lg:bg-transparent bg-[#00000030]">
@@ -185,8 +191,8 @@
                     <img id="s3_out" class="absolute lg:w-3/5 w-48 max-w-none lg:top-1/6 top-16 lg:left-2/5 left-0" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s3_out_2.png?v=1676607616" alt="">
                 </div>
                 <div class="lg:w-1/2 w-full xl:pt-40 lg:pt-32 md:pt-28 pt-2/5 xl:pr-80 lg:pr-60 md:pr-16 pr-8 lg:bg-transparent bg-[#00000030]">
-                    <p class="mb-12 xl:leading-loose lg:leading-relaxed font-bold font-Montserrat text-white text-3xl xl:text-5xl lg:text-4xl text-right">Updating data <br>every <span class="text-5xl md:text-6xl xl:text-8xl lg:text-7xl font-bold text-viGreen-light1" id="s3_sec">9.9</span> seconds</p>
-                    <p id="s3_in_dec" class="lg:text-2xl text-lg text-right lg:text-gray-400 text-white w-5/6 float-right leading-snug">
+                    <p class="mb-12 xl:leading-loose lg:leading-relaxed font-bold font-Montserrat text-white text-3xl xl:text-5xl lg:text-4xl text-right">Updating data every<br><span class="font-SevenSegment text-5xl md:text-6xl xl:text-8xl lg:text-7xl font-bold text-viGreen-light1" id="s3_sec">9.9</span> seconds</p>
+                    <p id="s3_in_dec" class="lg:text-xl text-lg text-right lg:text-gray-400 text-white w-5/6 float-right leading-snug">
                         Timely know the current water temperature in the location without leaving our house
                     </p>
                     <img id="s3_in" class="absolute lg:bottom-4 bottom-1/6 lg:right-1/5 right-12 max-w-1/2" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s3_in2.png?v=1676537477" alt="">
@@ -194,7 +200,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-black overflow-hidden" id="section_5">
+    <section class="hidden bg-black overflow-hidden" id="section_5">
         <div class="max-w-default mx-auto md:mb-64 mb-24 pb-24">
             <h1 id="s5_biggest" class="overflow-hidden relative text-6xl lg:text-7xl xl:text-8xl md:text-5xl font-Montserrat text-white font-bold xl:py-72 lg:py-64 py-48 lg:leading-snug leading-snug lg:w-2/3 xl:w-2/3 md:w-2/3 lg:pl-12 px-4">
                 <div id="s5_biggest_bg" class="-translate-y-48 -translate-x-4 absolute w-full h-[200%] s5-biggest-bg mix-blend-darken"></div>
@@ -203,7 +209,7 @@
             <img id="s5_in" class="mx-auto w-full" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/17fa0aa8b5045286d9ddbddc6e271e80.png?v=1676624101" alt="">
         </div>
     </section>
-    <section class=" bg-black" id="section_7">
+    <section class="hidden bg-black" id="section_7">
         <div class="md:flex max-w-default mx-auto md:pb-64 pb-32">
             <div class="md:w-3/5 md:pl-[12%] md:px-0 px-4 pt-24 relative">
                 <h1 class="relative md:text-left text-center text-white lg:text-6xl xl:text-7xl md:text-5xl text-4xl font-bold md:leading-snug font-Montserrat z-10">Connection <br>Range up to</h1>
@@ -226,36 +232,36 @@
             </div>
         </div>
     </section>
-    <section class=" bg-black" id="section_8">
+    <section class="hidden bg-black" id="section_8">
         <div class="overflow-hidden relative">
-           <h1 class="z-10 bottom-1/5 text-2xl lg:text-3xl xl:text-4xl text-white text-center absolute left-0 w-full">Anti-conllision design for better protection</h1>
-           <video class="min-h-[30vh] object-cover opacity-50" playsinline="true" muted="true" x5-playsinline="true" autoplay="true" loop=""><source type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;" src="https://cdn.shopify.com/videos/c/o/v/75298b91c7d24d5685ed59b9aae68885.mp4"></video>
+           <h1 id="s8_dec" class="z-10 bottom-1/5 text-2xl lg:text-3xl xl:text-4xl text-white text-center absolute left-0 w-full">Anti-conllision design for better protection</h1>
+           <video id="s8_video" class="min-h-[30vh] object-cover" playsinline="true" muted="true" x5-playsinline="true" autoplay="true"><source type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;" src="https://cdn.shopify.com/videos/c/o/v/90e94450cb2c48c4b86020b1928618a8.mp4"></video>
         </div>
     </section>
-    <section class="" id="section_9">
+    <section class="hidden" id="section_9">
         <div class="mx-auto max-w-default mb-64 min-h-screen">
             <h1 class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-center md:mt-64 mt-28 font-extrabold font-Montserrat md:mb-32 mb-12">
             ONE SET FOR ALL USAGE SCENARIOS
             </h1>
             <div class="flex flex-wrap md:px-0 px-8">
                 <div id="s9_img" class="text-center max-w-1/2">
-                    <img class="mx-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s9_3.png?v=1676519111" alt="">
+                    <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/Hot_Tub.jpg?v=1676878728" alt="">
                     <p class="md:mt-8 mt-2 font-bold md:text-2xl text-lg">Hot Tub</p>
                 </div>
                 <div id="s9_img2" class="text-center max-w-1/2 translate-x-[8%] md:translate-y-[35%] translate-y-[50%]">
-                    <img class="mx-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s9_5.png?v=1676519112" alt="">
+                    <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/Swimming_Pool.jpg?v=1676878728" alt="">
                     <p class="md:mt-8 mt-2 font-bold md:text-2xl text-lg">Swimming Pool</p>
                 </div>
                 <div id="s9_img3" class="text-center max-w-1/2 translate-x-[16%] md:translate-y-[25%] translate-y-[40%]">
-                    <img class="mx-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s9_4.png?v=1676519112" alt="">
-                    <p class="md:mt-8 mt-2 font-bold md:text-2xl text-lg">Aquarium</p>
-                </div>
-                <div id="s9_img4" class="text-center max-w-1/2 translate-x-[30%] md:translate-y-[45%] translate-y-[80%]">
-                    <img class="mx-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s9_1.png?v=1676519110" alt="">
+                    <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/small_pond.jpg?v=1676878728" alt="">
                     <p class="md:mt-8 mt-2 font-bold md:text-2xl text-lg">Small pond</p>
                 </div>
+                <div id="s9_img4" class="text-center max-w-1/2 translate-x-[30%] md:translate-y-[45%] translate-y-[80%]">
+                    <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/aquarum.jpg?v=1676878727" alt="">
+                    <p class="md:mt-8 mt-2 font-bold md:text-2xl text-lg">Aquarium</p>
+                </div>
                 <div id="s9_img5" class="text-center max-w-1/2 translate-x-[95%] md:translate-y-[25%] translate-y-[75%]">
-                    <img class="mx-auto" src="https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s9_2.png?v=1676519111" alt="">
+                    <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/hot_spring.jpg?v=1676878728" alt="">
                     <p class="md:mt-8 mt-2 font-bold md:text-2xl text-lg">Hot Spring</p>
                 </div>
             </div>
@@ -264,9 +270,44 @@
         </div>
     </section>
     <section class="" id="section_10">
-        <div class="text-xl h-screen">
-            Other
-            比较\购买链接\PR\Video
+        <div class="bg-gradient-to-r from-cyan-500 to-blue-500 py-32 text-white">
+            <div class="max-w-default mx-auto flex">
+                <div class="w-1/3 px-8">
+                    <h1 class="md:text-4xl text-2xl text-center font-boldw-full md:mb-8 mb-6 font-bold">Recommended by</h1>
+                    <p>Join Professionals, Swimming Enthusias and Tech Geeks to find out more about IBS-P02R</p>
+                </div>
+                <div class="w-2/3" id="s10_video">
+                    <div class="rounded-lg overflow-hidden bg-black text-white">
+                        <div class="">
+                            <img src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s2_in_family.jpg?v=1676539316" alt="" srcset="">
+                            <p class="text-center p-4">Unboxing INKBIRD IBS-TH2 Plus Smart Sensor</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-black text-white">
+                        <div class="">
+                            <img src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s2_in_family.jpg?v=1676539316" alt="" srcset="">
+                            <p class="text-center p-4">Unboxing INKBIRD IBS-TH2 Plus Smart Sensor</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-black text-white">
+                        <div class="">
+                            <img src="https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s2_in_family.jpg?v=1676539316" alt="" srcset="">
+                            <p class="text-center p-4">Unboxing INKBIRD IBS-TH2 Plus Smart Sensor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gradient-to-r from-viGreen to-green-500 py-32 text-white">
+            <div class="max-w-default mx-auto">
+                <div class="w-2/3">
+
+                </div>
+                <div class="w-1/3 px-8">   
+                    <h1 class="md:text-4xl text-2xl text-center font-boldw-full md:mb-8 mb-6 font-bold">As Featured on </h1>
+                    <p>What media and others think about IBS-P02R? Here are some answers</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -276,7 +317,7 @@
 
         const parObj = {
             s1_products_y:window.innerWidth < 737 ? '-32%' : '-42%',
-            s4_top_y:window.innerWidth < 737 ? '-30' : '-50',
+            s4_top_y:window.innerWidth < 737 ? '-40' : '-120',
             s9_img_pst:window.innerWidth < 737 ?
             { img:{x:'10%',y:'-5%'}, img2:{x:'10%',y:0}, img3:{x:'7.5%',y:'-85%'}, img4:{x:'10%',y:'-85%'}, img5:{x:'4%',y:'-155%'} }:
             { img:{x:'-15%',y:'-30%'}, img2:{x:'25%',y:'-45%'}, img3:{x:'15%',y:'-145%'}, img4:{x:'-30%',y:'-120%'}, img5:{x:'50%',y:'-350%'}, },
@@ -303,76 +344,93 @@
             s7_cRange_num:() =>  parObj.s7_range.innerHTML = (parObj.s7_range_num.var).toFixed()
         }
 
-            let tl = gsap.timeline();
-            tl.from("#s1_model",{opacity: 0, scale:5, y:-150, duration: 1,delay:.5})
-            .to("#s1_products",{y:parObj.s1_products_y,opacity:1,duration:.75})
-            .from("#s1_slogan",{opacity: 0, y:-50, duration: 1})
-            .to("#s1_top2",{opacity:.5,duration:3})
+        let tl = gsap.timeline();
+        tl.from("#s1_model",{opacity: 0, scale:5, y:-150, duration: 1,delay:.5})
+        .to("#s1_products",{y:parObj.s1_products_y,opacity:1,duration:.75})
+        .from("#s1_slogan",{opacity: 0, y:-50, duration: 1})
+        .to("#s1_top2",{opacity:.5,duration:3})
 
-            let tl_1 = gsap.timeline({scrollTrigger: {trigger: "#s2_out_dec",start: "top 80%"}});
-            tl_1.from("#s2_out_dec", { x: -100,opacity: 0,duration:.5})
-            .from("#s2_out_dec2",{x: 100,opacity: 0,duration:.5})
-            let tl_2 = gsap.timeline({scrollTrigger: {trigger: "#s2_in_dec",start: "top 80%"}});
-            tl_2.from("#s2_in_dec2",{x: 100,opacity: 0,duration:.5})
-            .from("#s2_in_dec", {x: -100,opacity: 0,duration:.5});
-            gsap.from("#s2_in_family", { scrollTrigger: {trigger: "#s2_in_family",start: "top 80%"}, y: 200,opacity: 0,duration:1});
-               
-            let tl_3 = gsap.timeline({scrollTrigger: { trigger: "#s2_in_screen", start: "center 65%", end: "+=150", snap: {delay: 0.2, ease: "power1.inOut" } }});
-            tl_3.to("#s2_in_screen", {opacity: 1,duration:.75})
-                .to("#s2_in_screen2",{opacity: 1,duration:.25})
-                .from('[data-gp="s2_screen_field"]',{scale:0,duration:.5,delay:.5})
-                .from('[data-gp="s2_screen_name"]',{opacity: 0,duration:.5,})
-
-
-            gsap.from("#s2_fun_out",{scrollTrigger: {trigger: "#s2_fun1", start:"center center"},x:100,y:100,duration:.75});
-            gsap.from("#s2_fun_in",{scrollTrigger: {trigger: "#s2_fun1", start:"center center"},x:100,y:-50,duration:.75});
-            let tl_4 = gsap.timeline({scrollTrigger: {trigger: "#s2_fun_wrapper",pin: true, start: "center center",end: "+=2000", scrub: true}});
-            tl_4.to("#s2_fun1", {opacity: 0,y:-200,duration:.75,display:'none'})
-            .fromTo("#s2_fun2", {y:200},{opacity:1, display:"block",y:-250,duration:.75})
-
-            gsap.timeline({scrollTrigger: {trigger: "#s3_anim1",pin: true, start: "top top",end: "+=150%", scrub: true}})
-            .to(parObj.s3_count_down, {var: 9.9, duration: 15, ease:"none",onUpdate:bakFun.s3_cNum})
-            .from("#s3_in",{x:250,scale: 1.2,duration:5,opacity:0.2,onComplete:bakFun.s3_cScreen})
-            .from("#s3_in_dec", {x: 500,duration:5,opacity:0})
-
-            let tl4 = gsap.timeline({scrollTrigger:"#s4_btm"});
-            tl4.to(["#s4_top","#s4_mid"],{y:parObj.s4_top_y,duration:1},1)
-            .from("#s4_slogan", {y:50, duration:1},1)
-            .to(["#s4_btm","#s4_top"], {opacity:.5,filter:"blur(2px)", duration:1},2);
-
-
-            gsap.to("#s5_biggest_bg",{scrollTrigger:{trigger:"#s5_biggest",start:"top center"},yoyo:true,repeat:-1, duration:6,y:'-70%'});
-            let tl5 = gsap.timeline({scrollTrigger:"#s5_in"});
-            tl5.from("#s5_screen_dec",{opacity:0,x:500,duration:1})
-            .to(parObj.s5_size_count, {var: 4, duration: 1, ease:"power1.out",onUpdate:bakFun.s5_cSize},1)
-            .to("#s5_size", {duration: 1, ease:"power1.out",fontSize:"225%"},1)
-            gsap.timeline({scrollTrigger: {trigger: "#s5_in",pin: false, start: "center bottom",end: "+=3000", scrub: true}})
-                .to("#s5_in",{scale:1.8,opacity:0,ease:"slow(0.7, 0.7, false)"})
-
-            gsap.from("#s7_out",{scrollTrigger:"#s7_range",x:40,y:-20,opacity:.65,scale:.9,duration:1})
-            gsap.to(parObj.s7_range_num, {scrollTrigger: "#s7_range",var: 300, duration: 1.5, ease:"power2.out",onUpdate:bakFun.s7_cRange_num});
-
-            (()=>{
-                let pst = parObj.s9_img_pst;
-                gsap.timeline({scrollTrigger: {trigger: "#section_9",start: "top bottom",scrub: true}})
-                .from("#s9_img", {scale:.9,x:pst.img.x,y:pst.img.y,duration:1},0)
-                .from("#s9_img2",{scale:.9,x:pst.img2.x,y:pst.img2.y,duration:1},0)
-                .from("#s9_img3",{scale:.9,x:pst.img3.x,y:pst.img3.y,duration:1},0)
-                .from("#s9_img4",{scale:.9,x:pst.img4.x,y:pst.img4.y,duration:1},0)
-                .from("#s9_img5",{scale:.9,x:pst.img5.x,y:pst.img5.y,duration:1},0)
-            })()
-
-            let mm = gsap.matchMedia();
-            mm.add("(min-width: 768px)", () => {            
-                gsap.to("#s7_ripple",{scale:"16", repeat:-1,duration:4,ease: "none.none"})
-                gsap.to("#s7_ripple2",{scale:"32", repeat:-1,duration:8,ease: "none.none"})
-                gsap.from("#s9_dec",{scrollTrigger: {trigger:"#s9_dec",start: "top 80%"},opacity:0,x:-200,duration:1.5})
-            });
-
-
+        let tl_1 = gsap.timeline({scrollTrigger: {trigger: "#s2_out_dec",start: "top 80%"}});
+        tl_1.from("#s2_out_dec", { x: -100,opacity: 0,duration:.5})
+        .from("#s2_out_dec2",{x: 100,opacity: 0,duration:.5})
+        let tl_2 = gsap.timeline({scrollTrigger: {trigger: "#s2_in_dec",start: "top 80%"}});
+        tl_2.from("#s2_in_dec2",{x: 100,opacity: 0,duration:.5})
+        .from("#s2_in_dec", {x: -100,opacity: 0,duration:.5});
+        gsap.from("#s2_in_family", { scrollTrigger: {trigger: "#s2_in_family",start: "top 80%"}, y: 200,opacity: 0,duration:1});
             
+        let tl_3 = gsap.timeline({scrollTrigger: { trigger: "#s2_in_screen", start: "center 65%", end: "+=150", snap: {delay: 0.2, ease: "power1.inOut" } }});
+        tl_3.to("#s2_in_screen", {opacity: 1,duration:.75})
+            .to("#s2_in_screen2",{opacity: 1,duration:.25})
+            .from('[data-gp="s2_screen_field"]',{scale:0,duration:.5,delay:.5})
+            .from('[data-gp="s2_screen_name"]',{opacity: 0,duration:.5,})
 
 
+        gsap.from("#s2_fun_out",{scrollTrigger: {trigger: "#s2_fun1", start:"center center"},x:100,y:100,duration:.75});
+        gsap.from("#s2_fun_in",{scrollTrigger: {trigger: "#s2_fun1", start:"center center"},x:100,y:-50,duration:.75});
+        let tl_4 = gsap.timeline({scrollTrigger: {trigger: "#s2_fun_wrapper",pin: true, start: "center center",end: "+=2000", scrub: true}});
+        tl_4.to("#s2_fun1", {opacity: 0,y:-200,duration:.75,display:'none'})
+        .fromTo("#s2_fun2", {y:200},{opacity:1, display:"block",y:-250,duration:.75})
+
+        gsap.timeline({scrollTrigger: {trigger: "#s3_anim1",pin: true, start: "top top",end: "+=200%", scrub: .5}})
+        .to(parObj.s3_count_down, {var: 9.9, ease:"none",onUpdate:bakFun.s3_cNum,onComplete:bakFun.s3_cScreen},-1)
+
+        // .from("#s3_in",{x:250,scale: 1.2,duration:5,opacity:0.2,onComplete:bakFun.s3_cScreen})
+        // .from("#s3_in_dec", {x: 500,duration:5,opacity:0})
+
+        let tl4 = gsap.timeline({scrollTrigger:"#s4_btm"});
+        tl4.to(["#s4_top","#s4_mid"],{y:parObj.s4_top_y,duration:1})
+        .to("#s4_mid",{y:-10,duration:1,delay:.5},1)
+        .from("#s4_slogan", {y:50, duration:1,delay:.5},1)
+        .to(["#s4_btm","#s4_top"], {opacity:.5,filter:"blur(2px)", duration:1},2);
+
+
+        gsap.to("#s5_biggest_bg",{scrollTrigger:{trigger:"#s5_biggest",start:"top center"},yoyo:true,repeat:-1, duration:6,y:'-70%'});
+        let tl5 = gsap.timeline({scrollTrigger:"#s5_in"});
+        tl5.from("#s5_screen_dec",{opacity:0,x:500,duration:1})
+        .to(parObj.s5_size_count, {var: 4, duration: 1, ease:"power1.out",onUpdate:bakFun.s5_cSize},1)
+        .to("#s5_size", {duration: 1, ease:"power1.out",fontSize:"225%"},1)
+        gsap.timeline({scrollTrigger: {trigger: "#s5_in",pin: false, start: "center bottom",end: "+=3000", scrub: true}})
+            .to("#s5_in",{scale:1.8,opacity:0,ease:"slow(0.7, 0.7, false)"})
+
+        gsap.from("#s7_out",{scrollTrigger:"#s7_range",x:40,y:-20,opacity:.65,scale:.9,duration:1})
+        gsap.to(parObj.s7_range_num, {scrollTrigger: "#s7_range",var: 300, duration: 1.5, ease:"power2.out",onUpdate:bakFun.s7_cRange_num});
+
+
+        let tl8 = gsap.timeline();
+        tl8.to("#s8_video",{scrollTrigger:{trigger:"#s8_video",start:"top center"},opacity:.65,delay:2.75,duration:1})
+        .fromTo("#s8_dec",{x:-150,opacity:0},{x:-0,opacity:1,duration:1.25},4);
+        
+
+        (()=>{
+            let pst = parObj.s9_img_pst;
+            gsap.timeline({scrollTrigger: {trigger: "#section_9",start: "top bottom",end:"+=1400", scrub: true}})
+            .from("#s9_img", {scale:.9,x:pst.img.x,y:pst.img.y,duration:1},0)
+            .from("#s9_img2",{scale:.9,x:pst.img2.x,y:pst.img2.y,duration:1},0)
+            .from("#s9_img3",{scale:.9,x:pst.img3.x,y:pst.img3.y,duration:1},0)
+            .from("#s9_img4",{scale:.9,x:pst.img4.x,y:pst.img4.y,duration:1},0)
+            .from("#s9_img5",{scale:.9,x:pst.img5.x,y:pst.img5.y,duration:1},0)
+        })()
+
+        let mm = gsap.matchMedia();
+        mm.add("(min-width: 768px)", () => {            
+            gsap.to("#s7_ripple",{scale:"16", repeat:-1,duration:4,ease: "none.none"})
+            gsap.to("#s7_ripple2",{scale:"32", repeat:-1,duration:8,ease: "none.none"})
+            gsap.from("#s9_dec",{scrollTrigger: {trigger:"#s9_dec",start: "top 80%"},opacity:0,x:-200,duration:1.5})
+        });
+
+
+        $('#s10_video').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            draggable:true,
+            autoplay:true,
+            autoplaySpeed:1500,
+            pauseOnHover:false,
+            fade:true
+        });
+                    
            
 
     </script>

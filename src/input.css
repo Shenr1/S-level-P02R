@@ -69,28 +69,6 @@
 .s5-biggest-bg{
   background: linear-gradient(-3deg, #000, #000 20%, #3e9508, #d9f7c6, #40a700, #000 80%, #000);
 }
-/* 
-.s7-ripple:before,
-.s7-ripple:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0;
-  border: 1px solid #ebebeb;
-  border-radius: 50%;
-  box-shadow: 0px 0px 5px 0px #ffffff;
-}
-
-.s7-ripple:before {
-  animation: s7-ripple 5s linear infinite;
-}
-
-.s7-ripple:after {
-  animation: s7-ripple 5s linear 2.5s infinite;
-} */
 
 @keyframes s7-ripple {
   0% { transform: scale(1); }

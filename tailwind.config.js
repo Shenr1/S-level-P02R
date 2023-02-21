@@ -29,12 +29,14 @@ module.exports = {
         'Impact': 'Impact, Arial, sans-serif',
         'Montserrat': 'Montserrat, Arial, sans-serif',
         'Sans': 'Noto Sans SC, Arial, sans-serif',
-        'OpenSans': 'Open Sans, Arial, sans-serif'
+        'OpenSans': 'Open Sans, Arial, sans-serif',
+        'SevenSegment': 'Seven Segment, Arial, sans-serif'
       },
       backgroundImage: {
         'p02rBannr': "url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s1_bg.jpg?v=1676538193')",
         'mask': "url('https://cdn.shopifycdn.net/s/files/1/0067/6950/8415/files/s7_bg.png?v=1676513159')",
         's3bg': "url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s3_bg.png?v=1676461660')",
+        's2bgScreen': "url('https://cdn.shopify.com/s/files/1/0067/6950/8415/files/s2_bg.jpg?v=1676878728')"
       },
       maxWidth: {
         '1/2': '50%',
